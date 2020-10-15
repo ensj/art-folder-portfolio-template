@@ -1,14 +1,15 @@
 import '../assets/styles/globals.scss'
-import Head from 'next/head'
 
 // import App from "next/app";
-import type { AppProps /*, AppContext */ } from 'next/app'
+import type { AppProps /* , AppContext */ } from 'next/app'
+import Head from 'next/head'
+import React from 'react'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <div className="container">
       <Head>
-        <title>Sean Rosenthal's Art Portfolio</title>
+        <title>{"Sean Rosenthal's Art Portfolio"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
