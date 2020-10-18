@@ -1,9 +1,13 @@
-import React, { Children } from 'react'
+import React from 'react'
 
-const App: React.FunctionComponent = (children: React.ReactNode) => {
-  const childLen: number = Children.count(children)
+import style from './index.module.scss'
 
-  return <div>{children}</div>
+interface CabinetProps {
+  children: React.ReactNode
+}
+
+const App: React.FunctionComponent<CabinetProps> = ({ children }: CabinetProps) => {
+  return <div className={style.cabinet}>{children}</div>
 }
 
 export default App

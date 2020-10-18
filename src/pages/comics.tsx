@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 
 import Menu from '../assets/components/organisms/Menu'
