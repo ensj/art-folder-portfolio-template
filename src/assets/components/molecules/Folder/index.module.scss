@@ -11,10 +11,6 @@
   cursor: pointer;
 
   transform: rotate(180deg);
-
-  &:hover {
-    right: 10px;
-  }
 }
 
 .folderBody {
@@ -24,10 +20,10 @@
   height: 100vh;
 }
 
-.folderBody2 {
+.folderBodyBottom {
   position: fixed;
   right: 85px;
-  width: 10px;
+  width: 20px;
   height: 100vh;
 
   border-right: 1px solid black;

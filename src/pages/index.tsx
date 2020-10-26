@@ -1,14 +1,13 @@
 import React from 'react'
 
-import Menu from '../assets/components/organisms/Menu'
+import DefaultLayout from '../assets/templates/DefaultLayout'
 
 const App: React.FunctionComponent = () => (
-  <div>
-    <Menu />
+  <DefaultLayout>
     <div>
       <h1>{"Welcome to Awawawaart's place!"}</h1>
     </div>
-  </div>
+  </DefaultLayout>
 )
 
 export default App

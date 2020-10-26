@@ -1,13 +1,12 @@
 import React from 'react'
 
-import Menu from '../assets/components/organisms/Menu'
+import DefaultLayout from '../assets/templates/DefaultLayout'
 
 const App: React.FunctionComponent = () => {
   return (
-    <div>
-      <Menu />
+    <DefaultLayout>
       <h1>COMISC!!</h1>
-    </div>
+    </DefaultLayout>
   )
 }
 
