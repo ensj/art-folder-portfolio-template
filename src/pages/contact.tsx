@@ -4,7 +4,7 @@ import DefaultLayout from '../assets/templates/DefaultLayout'
 
 const App: React.FunctionComponent = () => {
   return (
-    <DefaultLayout>
+    <DefaultLayout selected={'contact'}>
       <h1>CONTACT HERE HERE!</h1>
     </DefaultLayout>
   )

@@ -5,14 +5,14 @@ import type { AppProps /* , AppContext */ } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App: React.FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>{"Sean Rosenthal's Art Portfolio"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps} />
+      <Component id="container" {...pageProps} />
     </div>
   )
 }
