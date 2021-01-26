@@ -44,7 +44,8 @@ const App: React.FunctionComponent<DefaultLayoutProps> = ({ selected, children }
               key={index}
               title={item.title}
               href={item.href}
-              selected={index <= selectedIndex}
+              selected={index === selectedIndex}
+              reverseCascade={index <= selectedIndex}
               order={menuItems.length - index - 1}
               color={item.color}
             >
