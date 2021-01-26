@@ -1,30 +1,17 @@
 .folder {
-  position: relative;
-  height: 160px;
-  width: 60px;
-  writing-mode: tb-rl;
-  margin: 10px 0;
-  padding-top: 10px;
-  padding-right: 7px;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
   transition: right 0.3s ease;
+  background-size: 20px 150%;
+  background-repeat: repeat-y;
+  background-position: 2% 10%;
+  background-clip: padding-box;
 
-  cursor: pointer;
-
-  transform: rotate(180deg);
+  //border-image: url(/folder-border-1.png) 2% repeat;
+  //border-left: 15px solid;
 }
 
-.folderBody {
-  position: fixed;
-  right: 40px;
-  width: 60px;
-  height: 100vh;
-}
-
-.folderBodyBottom {
-  position: fixed;
-  right: 85px;
-  width: 20px;
-  height: 100vh;
-
-  border-right: 1px solid black;
+.container {
+  margin: 10px 10px 10px 25px;
 }
